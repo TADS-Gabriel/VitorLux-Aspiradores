@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ab94d0eba.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/formstyle.css">
+    <link rel="shortcut icon" href="../img/favicon.png" sizes="16x16">
+    <title> Vitorlux - Contato </title>
+</head>
+    
+<body>
+    
+    <main class="container">
+        
+        <a href="../index.html"> <img src="../img/logo.png"> </a>
+        
+        <form action="">
+            
+            <div class="input-field">
+                <label for="nome"><strong>Nome:</strong></label>
+                
+                <input type="text" name="username" id="username" placeholder="Enter Your Username" required="">
+                <div class="underline"></div>
+            </div>
+                        
+            <div class="input-field">
+                <label for="email"><strong>Email:</strong></label>
+                
+                <input type="email" name="email" id="email" placeholder="contato@000.com.br" required="">
+                <div class="underline"></div>
+                <div class="input-field"></div>
+                
+            </div>
+            
+            <br>
+            
+            <div class="input-field">
+                   <label for="senioridade"><strong>Assunto:</strong></label>
+                
+                <select id="senioridade" required="">
+                  <option selected="" disabled="" value="">Selecione</option>
+                  <option>Sugestões</option>
+                  <option>Reclamações</option>
+                  <option>Orçamentos</option> 
+                </select>
+                
+                <div class="underline"></div>
+                
+            </div>
+            
+            <br>
+            
+            <div class="input-field">
+                
+                <p> Mensagem: </p>
+                
+<textarea id="msg" name="msg" placeholder="DIGITE AQUI SUA MENSAGEM ..." required="" style="margin: 0px; width: 258px; height: 97px;"></textarea>
+                
+                <div class="underline"></div>
+                
+            </div>
+            
+            <input type="reset" value="Redefinir">
+            
+            <input type="submit" value="Continue">
+            
+        </form>
+
+    </main>
+    
+</body>
+    
+</html>
